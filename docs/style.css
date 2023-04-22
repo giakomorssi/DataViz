@@ -1,1 +1,166 @@
+body {
+	color: #ffffff;
+	overflow-y: scroll;
+}
+html {
+	scroll-behavior: smooth;
+}
 
+/* First Page Styles */
+  
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+  
+h1 {
+	font-size: 6rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	color: #ffffff;
+	text-shadow: 2px 2px #666666;
+}
+  
+.names p {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	text-shadow: 1px 1px #666666;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	line-height: 1.4;
+} 
+
+.title {
+	color: #ffffff;
+	padding: 1rem;
+}
+  
+.title h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+  
+.content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+  
+.image {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-right: 5%; /* Add a margin to the right */
+}
+  
+img {
+	width: 90%; /* Increase the image width */
+	max-height: 120vh; /* Set a maximum height to avoid overflow */
+	height: auto;
+	margin: 5%;
+}
+  
+.comments {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+  
+.comments p {
+	font-size: 10rem;
+	margin: 0.5rem;
+	color: #ffffff;
+	text-shadow: 1px 1px #666666;
+	line-height: 1.4;
+}
+  
+  /* Fourth page styles */
+  
+.image {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-right: 5%;
+}
+  
+.comments {
+	flex: 1;
+}
+  
+.comments p {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+  
+.image div {
+	width: 80%; /* Increase the width to match the images */
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+  
+.image div img {
+	max-width: 80%; /* Increase the image width */
+	width: 1000px;
+	margin-left: 5rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #222;
+}
+
+.h1 {
+	font-size: 4rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	color: #fff;
+	
+}
+
+.names {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+p {
+	font-size: 2rem;
+	margin: 0.5rem;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+
+a {
+	color: #fff;
+	margin-top: 2rem;
+	transition: transform 0.3s ease-in-out;
+}
+
+
+a:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease-in-out; 
+}
+
+
+  
